@@ -35,6 +35,7 @@ mkdir -p $HOME/.local/bin/
 ln -s $HOME/code/grass/bin.*/grass* $HOME/.local/bin/grass
 
 $HOME/.local/bin/grass --tmp-location XY --exec g.extension r.futures
+$HOME/.local/bin/grass --tmp-location XY --exec g.extension r.sample.category
 
 # download a sample dataset
 mkdir -p data/grassdata \
