@@ -1,1 +1,3 @@
-install.packages(c("lme4", "MuMIn"))
+install.packages("MuMIn")
+install.packages("lme4")
+install.packages("optparse")
