@@ -1,6 +1,6 @@
 # FUTURES Model Introduction Using Jupyter Notebook
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/wenzeslaus/futures-model-intro-notebook/master?https://mybinder.org/v2/gh/norvig/pytudes/master?urlpath=lab/tree/futures_nc_spm.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/wenzeslaus/futures-model-intro-notebook/master?urlpath=lab/tree/futures_nc_spm.ipynb)
 
 This is a Jupyter Notebook introducing FUTURES urban model in GRASS GIS
 using Python interface. The repository is intended to be used with
