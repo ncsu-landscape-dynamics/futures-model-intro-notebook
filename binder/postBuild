@@ -48,5 +48,5 @@ mkdir -p data/grassdata \
 curl -SL http://fatra.cnr.ncsu.edu/futures/futures_files_workshop_2019.zip > futures_files_workshop_2019.zip \
 && unzip -qq futures_files_workshop_2019.zip \
 && mv futures_files_workshop_2019/* data \
-&& rm futures_files_workshop_2019.zip && rm futures_files_workshop_2019/
+&& rm futures_files_workshop_2019.zip && rm -rf futures_files_workshop_2019/
   
