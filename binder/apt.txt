@@ -39,3 +39,4 @@ zlib1g-dev
 p7zip
 imagemagick
 git
+gdal-bin
