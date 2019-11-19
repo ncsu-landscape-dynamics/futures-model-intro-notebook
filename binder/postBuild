@@ -39,14 +39,7 @@ $HOME/.local/bin/grass --tmp-location XY --exec g.extension r.sample.category
 
 # download a sample dataset
 mkdir -p data/grassdata \
-  && curl -SL http://fatra.cnr.ncsu.edu/futures/futures_triangle_nc.zip > futures_triangle_nc.zip \
+  && curl -SL http://fatra.cnr.ncsu.edu/futures/futures_triangle_nc_notebook.zip > futures_triangle_nc.zip \
   && unzip -qq futures_triangle_nc.zip \
   && mv futures_triangle_nc data/grassdata \
-  && rm futures_triangle_nc.zip
-
-# download sample files
-curl -SL http://fatra.cnr.ncsu.edu/futures/futures_files_workshop_2019.zip > futures_files_workshop_2019.zip \
-&& unzip -qq futures_files_workshop_2019.zip \
-&& mv futures_files_workshop_2019/* data \
-&& rm futures_files_workshop_2019.zip && rm -rf futures_files_workshop_2019/
-  
+  && rm futures_triangle_nc.zip  
