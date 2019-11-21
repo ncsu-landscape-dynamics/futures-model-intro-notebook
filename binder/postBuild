@@ -42,4 +42,4 @@ mkdir -p data/grassdata \
   && curl -SL http://fatra.cnr.ncsu.edu/futures/futures_triangle_nc_notebook.zip > futures_triangle_nc.zip \
   && unzip -qq futures_triangle_nc.zip \
   && mv futures_triangle_nc data/grassdata \
-  && rm futures_triangle_nc.zip  
+  && rm futures_triangle_nc.zip
