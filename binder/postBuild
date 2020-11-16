@@ -8,7 +8,7 @@ mkdir code
 cd code
 
 # get the source code
-git clone https://github.com/OSGeo/grass.git
+git clone -b '7.8.4' --single-branch --depth 1 https://github.com/OSGeo/grass.git
 
 # compile
 cd grass
