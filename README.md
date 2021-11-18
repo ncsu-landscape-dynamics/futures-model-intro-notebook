@@ -1,6 +1,6 @@
 # FUTURES Model Introduction Using Jupyter Notebook
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ncsu-landscape-dynamics/futures-model-intro-notebook/master?urlpath=lab/tree/futures_triangle.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ncsu-landscape-dynamics/futures-model-intro-notebook/main?urlpath=lab/tree/futures_triangle.ipynb)
 
 This is a Jupyter Notebook introducing FUTURES urban model in GRASS GIS
 using Python interface. The repository is intended to be used with
@@ -12,8 +12,8 @@ are met.
 This repository is compiling GRASS GIS when a Binder image is renewed.
 The reason for compiling it is that packages from PPA don't allow
 compilation of using g.extension due to missing files from
-documentation. The version used is the latest master from Git.
-This will be eventually changed to a packaged version once the issue
+documentation. The version used is the latest release obtained from Git.
+This may be eventually changed to a packaged version once the issue
 is resolved.
 
 ## Authors
