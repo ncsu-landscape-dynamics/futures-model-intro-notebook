@@ -11,7 +11,7 @@ def initialize_GRASS_notebook(binary, grassdata, location, mapset):
 
     # create GRASS GIS runtime environment
     sys.path.append(
-        subprocess.check_output([binary, "--config", "path"], text=True).strip()
+        subprocess.check_output([binary, "--config", "python_path"], text=True).strip()
     )
 
     # do GRASS GIS imports
