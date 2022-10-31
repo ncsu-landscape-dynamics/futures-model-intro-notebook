@@ -35,5 +35,5 @@ def show_interactively(raster, opacity=0.8):
     import grass.jupyter as gj
 
     render_map = gj.InteractiveMap()
-    render_map.add_raster(map=raster, opacity=opacity)
+    render_map.add_raster(raster, opacity=opacity)
     return render_map.show()
