@@ -8,7 +8,7 @@ mkdir code
 cd code
 
 # get the source code
-git clone --depth 1 --branch 8.2.0 https://github.com/OSGeo/grass.git
+git clone --depth 1 --branch 8.4.1 https://github.com/OSGeo/grass.git
 
 # compile
 cd grass
@@ -24,7 +24,12 @@ cd grass
     --with-cairo \
     --with-opengl-libs=/usr/include/GL \
     --with-freetype=yes --with-freetype-includes="/usr/include/freetype2/" \
-    --with-sqlite=yes
+    --with-sqlite=yes \
+    --with-libsvm \
+    --with-fftw \
+    --with-zstd \
+    --without-pdal \
+    --without-openmp
 make
 cd $HOME
 
