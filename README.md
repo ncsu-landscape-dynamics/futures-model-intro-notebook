@@ -7,9 +7,9 @@ using Python interface. The repository is intended to be used with
 Binder, but the notebook can be used anywhere once the dependencies
 are met.
 
-## GRASS GIS Version
+## GRASS Version
 
-This repository is compiling GRASS GIS when a Binder image is renewed.
+This repository is compiling GRASS when a Binder image is renewed.
 The reason for compiling it is that packages from PPA don't allow
 compilation of using g.extension due to missing files from
 documentation. The version used is the latest release obtained from Git.
